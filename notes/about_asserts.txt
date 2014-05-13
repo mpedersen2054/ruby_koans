@@ -1,0 +1,3 @@
+assert_equal expected_value, actual_value
+  same as..,
+assert expected_value == actual_value
