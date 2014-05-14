@@ -33,3 +33,34 @@ with a splat, all of the extra vals will be shoved into the var assigned w/ the 
 name1, *name2 = ["firstname", "secondname", "thirdname"]
 name2 = ["secondname", "thirdname"]
 with too few variables, the extra vars will be nil
+
+# hashes
+trying to access a hash value : hash[:value] where value doesn't exist returns nil
+you can see an array of all of the hashes keys || values with hash.key || hash.values
+you can merge in new values with #merge, it will update values that are existant and add the ones that arent
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
