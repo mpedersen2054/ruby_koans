@@ -1,0 +1,26 @@
+# asserts
+assert_equal expected_value, actual_value
+  same as..,
+assert expected_value == actual_value
+
+# nil
+nil is an object
+nil has a few methods defined for it ( .inspect, .nil?, .to_s )
+
+# objects
+all objects have seperate object_id's
+if you call .clone on an object, it creates another object with seperate object_id
+
+# arrays
+arrays are indexed starting at [0, 1, 2, 3]
+arrays and ranges are not the same thing
+you can call .to_a on a range to turn it into an array
+slicing an array with a range:
+array = ["hi", "bye", "fly", "sky"]
+array[0..2] = ["hi", "bye", "fly"]
+array[2..-1] = ["fly", "sky"]
+
+.push("something") pushes "something" into the last space of an array
+.pop pop's the last item off of an array
+.unshift("something") pushes "something" into the first space of an array
+.shift pop's the first item off of an array
