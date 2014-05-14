@@ -1,5 +1,7 @@
 # The path to Ruby Enlightenment starts with the following:
 
+# $ watchr ./koans.watchr to turn watcher on
+
 $LOAD_PATH << File.dirname(__FILE__)
 
 require 'about_asserts'

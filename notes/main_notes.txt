@@ -39,6 +39,7 @@ trying to access a hash value : hash[:value] where value doesn't exist returns n
 you can see an array of all of the hashes keys || values with hash.key || hash.values
 you can merge in new values with #merge, it will update values that are existant and add the ones that arent
 
+# strings
 
 
 
