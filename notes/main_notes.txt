@@ -24,3 +24,12 @@ array[2..-1] = ["fly", "sky"]
 .pop pop's the last item off of an array
 .unshift("something") pushes "something" into the first space of an array
 .shift pop's the first item off of an array
+
+# array assignment
+you can parallely assign variables by doing:
+name1, name2 = ["firstname", "secondname"]
+if there is an extra value, the extra val will not be included
+with a splat, all of the extra vals will be shoved into the var assigned w/ the splat
+name1, *name2 = ["firstname", "secondname", "thirdname"]
+name2 = ["secondname", "thirdname"]
+with too few variables, the extra vars will be nil
