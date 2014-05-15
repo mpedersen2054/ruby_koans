@@ -54,6 +54,10 @@ assert_equal "bccc", "abbcccddddeeeee"[/bc+/] + means one or more
 assert_equal "", "abbcccddddeeeee"[/z*/] * means zero or more
 assert_equal ["cat", "bat", "rat"], animals.select { |a| a[/[cbr]at/] } the [cbr] allow c, b, or r to be mathed
 
+# methods
+wrong number of errors is a runtime error, not a syntax error
+can set method defaults in the method definition's arguments
+
 
 
 
