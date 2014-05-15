@@ -47,7 +47,12 @@ symbols are not immutable strings, although they are immutable
 symbols cannot be modified like strings
 They are only put into memory once, making them very efficient to use for things like keys in hashes but they stay in memory until the program exits. This makes them a memory hog if you misuse them.
 
-
+# regular expressions
+assert_equal "match", "some matching content"[/match/] is true
+assert_equal "a", "abbcccddddeeeee"[/az?/] the ? is means optional
+assert_equal "bccc", "abbcccddddeeeee"[/bc+/] + means one or more
+assert_equal "", "abbcccddddeeeee"[/z*/] * means zero or more
+assert_equal ["cat", "bat", "rat"], animals.select { |a| a[/[cbr]at/] } the [cbr] allow c, b, or r to be mathed
 
 
 
