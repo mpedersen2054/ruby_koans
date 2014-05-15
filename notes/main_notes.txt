@@ -39,7 +39,13 @@ trying to access a hash value : hash[:value] where value doesn't exist returns n
 you can see an array of all of the hashes keys || values with hash.key || hash.values
 you can merge in new values with #merge, it will update values that are existant and add the ones that arent
 
-# strings
+# symbols
+duplicate symbols with the same name have the same object_id
+symbols can be created by doing to the following:
+  :"cats and dogs"
+symbols are not immutable strings, although they are immutable
+symbols cannot be modified like strings
+They are only put into memory once, making them very efficient to use for things like keys in hashes but they stay in memory until the program exits. This makes them a memory hog if you misuse them.
 
 
 
