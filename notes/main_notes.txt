@@ -58,6 +58,9 @@ assert_equal ["cat", "bat", "rat"], animals.select { |a| a[/[cbr]at/] } the [cbr
 wrong number of errors is a runtime error, not a syntax error
 can set method defaults in the method definition's arguments
 
+# keyword arguments
+method_with_keyword_arguments(one: 1, two: 'two')
+
 
 
 
