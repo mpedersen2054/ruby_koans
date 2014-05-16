@@ -78,7 +78,9 @@ result = :true_value if true    - this is an if statement operator
 unless false is the same as if true
 this is an important lesson, probably should return here @ some point
 
-
+# exceptions
+the .ancestors method is awesome
+pry RuntimeError.ancestors
 
 
 
