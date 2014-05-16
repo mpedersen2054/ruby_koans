@@ -61,6 +61,11 @@ can set method defaults in the method definition's arguments
 # keyword arguments
 method_with_keyword_arguments(one: 1, two: 'two')
 
+# Constants
+calling a constant within scope will return the constant
+calling a constant out of scope with ::C will return the out of scope constant
+nested classes inherit constants from enclosing constants, as well as subclasses
+
 
 
 
