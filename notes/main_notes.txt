@@ -83,6 +83,11 @@ the .ancestors method is awesome
 pry RuntimeError.ancestors
 raise and fail are the same
 
+# iteration
+.collect and .map are the same thing
+.select and .find_all are the same thing
+.find locates the first item matching a criteria
+
 
 
 

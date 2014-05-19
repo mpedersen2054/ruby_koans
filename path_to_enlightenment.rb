@@ -22,8 +22,8 @@ require 'about_control_statements' #
 require 'about_true_and_false' #
 require 'about_triangle_project' #
 require 'about_exceptions' #
-require 'about_triangle_project_2'
-require 'about_iteration'
+require 'about_triangle_project_2' #
+require 'about_iteration' #
 require 'about_blocks'
 require 'about_sandwich_code'
 require 'about_scoring_project'
